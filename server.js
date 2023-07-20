@@ -25,6 +25,13 @@ fs.appendFile((path.join(__dirname,'files','write.txt')), '\n\n mofify or update
   console.log('update complete');
 });
 
+//rename a file
+  fs.rename(path.join(__dirname,'files','write.txt'), path.join(__dirname,'files','renaming.txt'), (err, data) => {
+  if (err) throw err;
+  console.log('rename complete');
+});
+
+
 //Exit on uncaught errors 
 process.on('uncaughtException', err => {
 console.error(`There was an uncaught error: ${err}`)
