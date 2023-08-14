@@ -15,4 +15,11 @@
 
 app.get('/',function(req,res,next){
 
-	
+	var _ = require('underscore');
+
+	// sort data within the request body
+	_.sort(someArray,function(item){
+		// do something with the item
+	});
+});
+
