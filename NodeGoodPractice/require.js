@@ -23,3 +23,14 @@ app.get('/',function(req,res,next){
 	});
 });
 
+//The Good Way
+
+var _ = require('underscore');
+
+app.get('/',function(req,res,next){
+
+	_.sort(someArray,function(item){
+		// do something with the item
+	});
+
+});
