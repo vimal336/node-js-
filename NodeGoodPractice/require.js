@@ -12,4 +12,7 @@
 
 //The Bad Way
 
-const fs = require('fs');
+
+app.get('/',function(req,res,next){
+
+	
