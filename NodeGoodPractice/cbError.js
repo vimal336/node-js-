@@ -6,3 +6,10 @@
 myAsyncFunction({
     some: 'data'
 }, function(err, someReturnedData) {
+
+    if(err){
+        // don't use someReturnedData
+        // it's not populated
+        return;
+    }
+
