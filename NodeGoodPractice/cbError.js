@@ -13,3 +13,7 @@ myAsyncFunction({
         return;
     }
 
+    // do something with someReturnedData
+    // we know there was no error
+
+});
