@@ -28,3 +28,18 @@ if (parsedJSON) {
 function parseJSON(stringToParse, callback) {
 
 	callback = (typeof callback === 'function') ? callback : function() {};
+
+	try {
+
+		var parsedJSON = JSON.parse(stringToParse);
+
+		callback(null, parsedJSON);
+
+	} catch (err) {
+
+		callback(err, null);
+
+	}
+
+}
+// Of course the above example is slightly contrived, however, the idea of using try catch is a very good practice.
