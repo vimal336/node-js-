@@ -24,3 +24,7 @@ if (parsedJSON) {
 // You can now be sure that the JSON was parsed correctly before using it.
 
 // This can be even more useful when using it in modules.
+
+function parseJSON(stringToParse, callback) {
+
+	callback = (typeof callback === 'function') ? callback : function() {};
