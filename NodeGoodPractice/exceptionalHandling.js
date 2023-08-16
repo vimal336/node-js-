@@ -18,3 +18,9 @@ try {
 	// do something with your error
 }
 
+if (parsedJSON) {
+	// use parsedJSON
+}
+// You can now be sure that the JSON was parsed correctly before using it.
+
+// This can be even more useful when using it in modules.
