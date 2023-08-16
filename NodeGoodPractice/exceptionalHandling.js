@@ -13,3 +13,8 @@
 var parsedJSON;
 
 try {
+	parsedJSON = JSON.parse('some invalid JSON');
+} catch (err) {
+	// do something with your error
+}
+
