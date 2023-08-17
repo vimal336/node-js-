@@ -15,3 +15,11 @@ function myFunction(someArray, callback){
 		callback(err, null);
 		return;
 	}
+
+	// ... do other stuff
+
+	callback(null, someData);
+
+}
+
+module.export.myFunction = myFunction;
