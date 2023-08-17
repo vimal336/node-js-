@@ -9,4 +9,9 @@ function myFunction(someArray, callback){
 
 	// an example of an error that could occur
 	// if the passed in object is
-	
+	// not the right data type
+	if( !Array.isArray(someArray) ){
+		var err = new TypeError('someArray must be an array');
+		callback(err, null);
+		return;
+	}
