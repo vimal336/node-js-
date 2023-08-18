@@ -20,3 +20,7 @@ module.exports = {};
 
 module.exports.someProperty = 'someValue';
 someProperty will be exported as part of the module.
+
+var exportedObject = require('./mod');
+
+console.log(exportedObject); // { someProperty: 'someValue' }
