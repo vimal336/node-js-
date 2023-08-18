@@ -16,3 +16,7 @@ var exportedObject = require('./mod');
 console.log(exportedObject); // {}
 The solution is simple. Don't use exports because it can create confusing, hard to track down bugs.
 
+module.exports = {};
+
+module.exports.someProperty = 'someValue';
+someProperty will be exported as part of the module.
