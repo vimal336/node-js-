@@ -4,3 +4,7 @@
 // Let me tell you how this is determined officially by ECMAScript.
 
 // The this keyword evaluates to the value of the ThisBinding of the current execution context.
+
+// Let me tell you how this is determined officially by ECMAScript.
+
+// The this keyword evaluates to the value of the ThisBinding of the current execution context.
