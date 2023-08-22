@@ -5,6 +5,6 @@
 
 // The this keyword evaluates to the value of the ThisBinding of the current execution context.
 
-// Let me tell you how this is determined officially by ECMAScript.
+//Basically that means that the value of the this variable is determined based on context, not encapsulation, as it is in other languages.
 
-// The this keyword evaluates to the value of the ThisBinding of the current execution context.
+
