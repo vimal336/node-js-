@@ -7,4 +7,4 @@
 
 //Basically that means that the value of the this variable is determined based on context, not encapsulation, as it is in other languages.
 
-
+//For example, if this is used inside a function, this references the object that invoked the function. That means that if you create a constructor function (basically a class in JavaScript) which then has methods attached to it, 
