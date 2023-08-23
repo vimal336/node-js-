@@ -15,3 +15,4 @@
 
 //In the code below this has two different values.
 
+function MyClass() {
