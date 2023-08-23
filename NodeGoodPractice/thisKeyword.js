@@ -11,4 +11,4 @@
 
 // the this variable in those methods may not refer to the constructor function (class) they are inside of.
 
-
+//The above happens a lot in Node, but it might be hard to understand without seeing code.
