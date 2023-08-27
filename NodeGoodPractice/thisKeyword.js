@@ -16,3 +16,10 @@
 //In the code below this has two different values.
 
 function MyClass() {
+	this.myMethod = function() {
+		console.log(this);
+	};
+}
+
+
+var myClass = new MyClass();
