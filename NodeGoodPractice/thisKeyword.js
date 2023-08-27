@@ -23,3 +23,5 @@ function MyClass() {
 
 
 var myClass = new MyClass();
+
+var someFunction = myClass.myMethod.bind(myClass);
