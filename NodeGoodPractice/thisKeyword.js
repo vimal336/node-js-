@@ -24,3 +24,7 @@ function MyClass() {
 
 var myClass = new MyClass();
 myClass.myMethod(); // this resolves as the instance of MyClass
+
+
+var someFunction = myClass.myMethod;
+someFunction(); // this resolves as the window in a browser and the global object in Node
