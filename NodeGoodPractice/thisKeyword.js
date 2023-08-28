@@ -23,5 +23,4 @@ function MyClass() {
 
 
 var myClass = new MyClass();
-
-var someFunction = myClass.myMethod.bind(myClass);
+myClass.myMethod(); // this resolves as the instance of MyClass
