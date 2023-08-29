@@ -29,5 +29,5 @@ myClass.myMethod(); // this resolves as the instance of MyClass
 var someFunction = myClass.myMethod;
 someFunction(); // this resolves as the window in a browser and the global object in Node
 
-The best way to solve this is to preserve this as another variable and then use that other variable instead. 
+//The best way to solve this is to preserve this as another variable and then use that other variable instead. 
 
