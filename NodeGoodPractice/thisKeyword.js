@@ -31,3 +31,4 @@ someFunction(); // this resolves as the window in a browser and the global objec
 
 //The best way to solve this is to preserve this as another variable and then use that other variable instead. 
 
+The most common variable names to use are _this, that, self, or root.
