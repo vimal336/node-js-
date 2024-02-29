@@ -6,5 +6,5 @@ function findLongestWord(stri){
 console.log(findLongestWord("hello javascript"));
 
 function isPalindrome(str){
-
+ return
 }
