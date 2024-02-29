@@ -1,4 +1,4 @@
 
 function findLongestWord(str){
- let words = (str./\s+/);
+ let words = str.split(/\s+/);
 }
