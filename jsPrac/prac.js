@@ -1,3 +1,3 @@
 let str = "hello javascript";
 
-console.log()
+console.log(str[2]);
