@@ -11,4 +11,11 @@ function isPalindrome(str){
  return str === str.split('').reverse().join('');
 }
 
+if(str==true){
+ console.log("this is palindrome")
+}else{
+ console
+}
+}
+
 console.log(isPalindrome("racecar"));
