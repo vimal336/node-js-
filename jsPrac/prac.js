@@ -6,5 +6,5 @@ function findWordLength(stri){
 console.log(findWordLength("hello javascript"));
 
 function isPalindrome(str){
- return str === str.split('').reverse().
+ return str === str.split('').reverse().join('');
 }
