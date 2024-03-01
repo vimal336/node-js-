@@ -1,5 +1,5 @@
 
-function findLongestWord(stri){
+function findWordLength(stri){
  return stri.split(/\s+/).length;
 }
 
