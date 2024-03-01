@@ -10,11 +10,4 @@ console.log(findWordLength("hello javascript"));
 function isPalindrome(str){
  return str === str.split('').reverse().join('');
 }
-
-if(isPalindrome==true){
- console.log("this is palindrome")
-}else{
- console.log("not palindrome")
-}
-
 console.log(isPalindrome("racecar"));
