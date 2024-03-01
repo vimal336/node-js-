@@ -10,4 +10,4 @@ console.log(findWordLength("hello javascript"));
 function isPalindrome(str){
  return str === str.split('').reverse().join('');
 }
-console.log(isPalindrome(""));
+console.log(isPalindrome("malayalam"));
