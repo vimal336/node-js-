@@ -3,7 +3,7 @@ function findWordLength(stri){
  return stri.split(/\s+/).length;
 }
 
-console.log(findLongestWord("hello javascript"));
+console.log(findWordLength("hello javascript"));
 
 function isPalindrome(str){
  return
