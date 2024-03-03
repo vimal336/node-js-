@@ -27,10 +27,10 @@ console.log(isPalindrome("malayalam"));
 // }
 
 let a = 20,
-  b = 30;
+  b = 0;
 function divide(a, b) {
   if (b == 0) {
-    throw "Division by zero";
+    console.log("Division by zero");
   }
 
   return a / b;
