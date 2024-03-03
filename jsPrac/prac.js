@@ -23,17 +23,17 @@ console.log(isPalindrome("malayalam"));
 //    console.log(a);
 //    c = a + b
 //    a = b;
-//    b = c; 
+//    b = c;
 // }
 
-
 let a = 20,
-b =30;
-function divide(a,b){
-    if(b==0){
-        throw 'Division by zero';
+  b = 30;
+function divide(a, b) {
+  if (b == 0) {
+    throw "Division by zero";
+  }
 
-    }
-
-    return a/b
+  return a / b;
 }
+
+console.log(divide(a,b));
