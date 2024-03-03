@@ -21,7 +21,7 @@ let num = 10;
 
 for (let i=1; i<=num; i++){
    console.log(a);
-   c = a + b// 0+1 = 1
-   a = b;// 1
-   b = c; // 
+   c = a + b
+   a = b;
+   b = c; 
 }
