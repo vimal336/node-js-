@@ -17,7 +17,7 @@ let a = 0,
   b = 1,
   c;
 
-let num = 10;
+let num = 5;
 
 for (let i=1; i<=num; i++){
    console.log(a);
