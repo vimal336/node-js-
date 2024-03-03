@@ -16,3 +16,5 @@ console.log(isPalindrome("malayalam"));
 //fibonnacci series
 
 let a = 0, b = 1, c;
+
+let num = 10;
