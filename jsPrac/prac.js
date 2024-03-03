@@ -19,6 +19,6 @@ let a = 0,
 
 let num = 10;
 
-for(let i<=10 i<=num i++){
-
+for (let i=1; i<=num; i++){
+   
 }
