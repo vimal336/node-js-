@@ -13,15 +13,27 @@ console.log(isPalindrome("malayalam"));
 
 //fibonnacci series
 
-let a = 0,
-  b = 1,
-  c;
+// let a = 0,
+//   b = 1,
+//   c;
 
-let num = 5;
+// let num = 5;
 
-for (let i=1; i<=num; i++){
-   console.log(a);
-   c = a + b
-   a = b;
-   b = c; 
+// for (let i=1; i<=num; i++){
+//    console.log(a);
+//    c = a + b
+//    a = b;
+//    b = c; 
+// }
+
+
+let a = 20,
+b =30;
+function divide(a,b){
+    if(b==0){
+        throw 'Division by zero';
+
+    }
+
+    return a/b
 }
