@@ -40,7 +40,7 @@ function divide(a, b) {
 
 
 
-let val = 222;
+let val = 153;
 let originalVal = val; // Store the original value to compare later
 let sum = 0;
 
