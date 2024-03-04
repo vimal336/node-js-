@@ -41,5 +41,5 @@ function divide(a, b) {
 let d = 230;
 
 for (let i=0; i<=d; i++){
-  
+  console.log(i);
 }
