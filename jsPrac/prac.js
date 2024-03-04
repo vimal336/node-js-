@@ -42,4 +42,5 @@ let val = prompt("enter any 3 digit value :");
 
 while(val > 0){
   let remain = val % 10;
+  sum = remain*remain*remain;
 }
