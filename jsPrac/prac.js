@@ -38,17 +38,21 @@ function divide(a, b) {
 
 //armstrong number
 
+
+
 let val = 222;
+let originalVal = val; // Store the original value to compare later
+let sum = 0;
 
-while(val > 0){
-  let remain = val % 10;
-  sum = remain*remain*remain;
+while (val > 0) {
+    let remain = val % 10;
+    sum += remain * remain * remain;
+    val = Math.floor(val / 10); // Move to the next digit
 }
 
-if(sum == val){
-  console.log(`${val} armstrong number`);
+if (sum === originalVal) {
+    console.log(`${originalVal} is an Armstrong number`);
+} else {
+    console.log(`${originalVal} is not an Armstrong number`);
 }
-else
-{
-  console.log(`${val} not a armstrong number`);
-}
+
