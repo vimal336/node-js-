@@ -40,6 +40,6 @@ function divide(a, b) {
 
 let val = prompt("enter any 3 digit value :");
 
-d = n/10;
-
-
+while(val > 0){
+  
+}
