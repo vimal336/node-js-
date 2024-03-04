@@ -44,3 +44,7 @@ while(val > 0){
   let remain = val % 10;
   sum = remain*remain*remain;
 }
+
+if(sum == val){
+  console.log(`${val} armstrong number`);
+}
