@@ -48,3 +48,7 @@ while(val > 0){
 if(sum == val){
   console.log(`${val} armstrong number`);
 }
+else
+{
+  console.log(`${val} armstrong number`);
+}
