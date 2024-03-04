@@ -38,5 +38,9 @@ function divide(a, b) {
 
 //armstrong number
 
-let d = 230;
+let d = prompt("enter how many digits : ");
+
+d = n/10;
+
+console.log(d);
 
