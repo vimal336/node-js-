@@ -38,11 +38,8 @@ function divide(a, b) {
 
 //armstrong number
 
-let val = prompt("enter the armstrong value :");
-
-let d = prompt("enter how many digits : ");
+let val = prompt("enter any 3 digit value :");
 
 d = n/10;
 
-console.log(d);
 
