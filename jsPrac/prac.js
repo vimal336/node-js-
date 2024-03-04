@@ -41,5 +41,5 @@ function divide(a, b) {
 let val = prompt("enter any 3 digit value :");
 
 while(val > 0){
-  
+  let remain = val % 10;
 }
