@@ -38,7 +38,7 @@ function divide(a, b) {
 
 //armstrong number
 
-let val = prompt("enter any 3 digit value :");
+let val = 222;
 
 while(val > 0){
   let remain = val % 10;
@@ -50,5 +50,5 @@ if(sum == val){
 }
 else
 {
-  console.log(`${val} armstrong number`);
+  console.log(`${val} not a armstrong number`);
 }
