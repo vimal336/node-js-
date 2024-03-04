@@ -37,3 +37,5 @@ function divide(a, b) {
 }
 
 //armstrong number
+
+let d = 230, e = 
