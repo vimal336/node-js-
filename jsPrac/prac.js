@@ -40,6 +40,3 @@ function divide(a, b) {
 
 let d = 230;
 
-while(d<=0){
-  d%10 * 3;
-}
