@@ -40,4 +40,4 @@ function divide(a, b) {
 
 let d = 230;
 
-
+let for(1=0; )
