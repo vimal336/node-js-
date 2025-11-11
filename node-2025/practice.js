@@ -2,8 +2,10 @@ console.log("node js practice");
 
 
 // to get file system
-require("fs")
+const fs = require("fs");
 
-fs.writeFileSync("test.txt", "hello");
+fs.writeFileSync("test.txt", "hello node.js 2025");
+
+
 
 
