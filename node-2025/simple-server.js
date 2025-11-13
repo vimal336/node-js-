@@ -16,8 +16,8 @@ res.end(`{"name":"vimal"}`)
 });
 
 
-// content type json
-const server2 = http.createServer((req, res)=>{
+// Server with route
+const server3 = http.createServer((req, res)=>{
 res.writeHead(200, { "content-type": "application/json"});
 res.end(`{"name":"vimal"}`)
 });
