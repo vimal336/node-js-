@@ -21,10 +21,10 @@ const server3 = http.createServer((req, res)=>{
 
  if(req.url == "/"){
 res.writeHead(200, { "content-type": "application/json"});
-res.end(`{"name":"vimal"}`)
+res.end(`{"name":"Home page"}`)
  } else if(req.url == "/about"){
 res.writeHead(200, { "content-type": "application/json"});
-res.end(`{"name":"vimal"}`)
+res.end(`{"name":"About Page"}`)
  }  
 });
 
