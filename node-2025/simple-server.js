@@ -20,12 +20,12 @@ res.end(`{"name":"vimal"}`)
 const server3 = http.createServer((req, res)=>{
 
  if(req.url == "/"){
-
- } else if(){
-
- }  
 res.writeHead(200, { "content-type": "application/json"});
 res.end(`{"name":"vimal"}`)
+ } else if(req.url == "/about"){
+res.writeHead(200, { "content-type": "application/json"});
+res.end(`{"name":"vimal"}`)
+ }  
 });
 
 // Start a server listening for connections.
