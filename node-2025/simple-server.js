@@ -18,6 +18,12 @@ res.end(`{"name":"vimal"}`)
 
 // Server with route
 const server3 = http.createServer((req, res)=>{
+
+ if(){
+
+ } else if(){
+    
+ }  
 res.writeHead(200, { "content-type": "application/json"});
 res.end(`{"name":"vimal"}`)
 });
