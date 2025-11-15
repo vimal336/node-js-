@@ -34,7 +34,7 @@ const server = http.createServer((req, res) => {
         readStream.pipe(res);
     } else {
         res.writeHead(404, { "content-type": "application/json" });
-        res.end(`{"name":"404 Page Not found"}`)
+        res.end(`{"name":"404 Pages Not found"}`)
     }
 });
 
