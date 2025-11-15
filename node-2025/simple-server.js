@@ -28,7 +28,7 @@ const server = http.createServer((req, res) => {
         res.writeHead(200, { "content-type": "application/json" });
         res.end(`{"name":"About Page"}`)
     }
-    else if (req.url == "/file") {
+    else if (req.url == "/files") {
         const readStream = fs.createReadStream("./sample.mp4")
         res.writeHead(200, { "content-type": "video/mp4" });
         readStream.pipe(res);
