@@ -33,7 +33,7 @@ const server = http.createServer((req, res) => {
         res.writeHead(200, { "content-type": "video/mp4" });
         readStream.pipe(res);
     } else {
-        res.writeHead(404, { "content-type": "" });
+        res.writeHead(404, { "content-type": "plain" });
         res.end(`{"name":"404 Pages Not found"}`)
     }
 });
