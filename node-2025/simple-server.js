@@ -34,6 +34,7 @@ const server = http.createServer((req, res) => {
         readStream.pipe(res);
      else if (req.url == "/images") {
          const readStream = fs.createReadStream("./sample.mp3")
+           res.
     } else {
         res.writeHead(404, { "content-type": "text/plain" });
         res.end(`{"name":"404 Page Not found"}`)
